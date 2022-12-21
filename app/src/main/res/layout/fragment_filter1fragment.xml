@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Filterspackage.Filter1fragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/editTextfoodnameincludefilter"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/mystyle5_5"
+            android:hint="foodsname include :"
+            android:inputType="textPersonName"
+            android:paddingLeft="10dp"
+            android:textSize="16sp" />
+
+        <EditText
+            android:id="@+id/editTextfoodsdeliciosfilter"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/mystyle5"
+            android:hint="foodsdelicios most be more than (your percent):"
+            android:inputType="number"
+            android:paddingLeft="10dp"
+            android:textSize="16sp" />
+
+        <EditText
+            android:id="@+id/editTextfoodshealthyfilter"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/mystyle4"
+            android:hint="foodshealthy most be more than (your percent):"
+            android:inputType="number"
+            android:paddingLeft="10dp"
+            android:textSize="16sp" />
+
+        <Switch
+            android:id="@+id/switchfoodveganfilter"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/mystyle6"
+            android:checked="false"
+            android:paddingLeft="10dp"
+            android:text="just vegan" />
+        <!--            android:background="#009688"-->
+
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0.8" />
+
+
+    </LinearLayout>
+
+
+</FrameLayout>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<movies>
+    <movie>
+        <title>felafel</title>
+        <genre>Action &amp; Adventure</genre>
+        <year>2015</year>
+    </movie>
+    <movie>
+        <title>Inside Out</title>
+        <genre>Animation, Kids &amp; Family</genre>
+        <year>2015</year>
+    </movie>
+    <movie>
+        <title>Star Wars: Episode VII - The Force Awakens</title>
+        <genre>Action</genre>
+        <year>2015</year>
+    </movie>
+    <movie>
+        <title>Shaun the Sheep</title>
+        <genre>Animation</genre>
+        <year>2015</year>
+    </movie>
+    <movie>
+        <title>The Martian</title>
+        <genre>Science Fiction &amp; Fantasy</genre>
+        <year>2015</year>
+    </movie>
+    <movie>
+        <title>Mission: Impossible Rogue Nation</title>
+        <genre>Action</genre>
+        <year>2015</year>
+    </movie>
+    <movie>
+        <title>Up</title>
+        <genre>Animation</genre>
+        <year>2009</year>
+    </movie>
+    <movie>
+        <title>Star Trek</title>
+        <genre>Science Fiction</genre>
+        <year>2009</year>
+    </movie>
+    <movie>
+        <title>The LEGO Movie</title>
+        <genre>Animation</genre>
+        <year>2014</year>
+    </movie>
+    <movie>
+        <title>Iron Man</title>
+        <genre>Action &amp; Adventure</genre>
+        <year>2008</year>
+    </movie>
+    <movie>
+        <title>Aliens</title>
+        <genre>Science Fiction</genre>
+        <year>1986</year>
+    </movie>
+    <movie>
+        <title>Chicken Run</title>
+        <genre>Animation</genre>
+        <year>2000</year>
+    </movie>
+    <movie>
+        <title>Back to the Future</title>
+        <genre>Science Fiction</genre>
+        <year>1985</year>
+    </movie>
+    <movie>
+        <title>Raiders of the Lost Ark</title>
+        <genre>Action &amp; Adventure</genre>
+        <year>1981</year>
+    </movie>
+    <movie>
+        <title>Goldfinger</title>
+        <genre>Action &amp; Adventure</genre>
+        <year>1965</year>
+    </movie>
+    <movie>
+        <title>Guardians of the Galaxy</title>
+        <genre>Science Fiction &amp; Fantasy</genre>
+        <year>2014</year>
+    </movie>
+</movies>

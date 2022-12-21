@@ -1,0 +1,52 @@
+plugins {
+    id 'com.android.application'
+}
+//https://zarinsource.com/android-programming-studio-tutorials-and-tips/
+//        targetSdkVersion 27
+//chon ke ba targetSdkVersion 30 be ba goshi ba api30 be bag khordam va ba goshi api zire 27 be bag nakhordam rahe halesh ine
+// rahe hal ine ke target ro biarim 27
+// chon vaghti ro 30 bashe va goshi ba api 30 install konim yeseri ketabkhone ha ro yeto dige anjam mide
+// yani az goshi haye 16 ta 27 ro dorost anjam mide vali 28 be bad ro na agar target ro biarim ro 27 yani darvaghe goshi haye bala
+// tar ro ham ba api 27 anjam bede
+// va dakhel android stadio dar vaghe ekhtiarat ta api 27 ro miare vali ta compileSdkVersion nasbe
+//age mikhai bala tar az 27 ro ejra koni bayad aval nahve estefade ketab khone hat ba api 28 be bala ro bebini chejori
+// darvaghe target yani max api 27 vali goshi haye ba api bala tar ham mitonan ba 27 ejra konan
+android {
+    compileSdkVersion 31
+    buildToolsVersion "30.0.3"
+    defaultConfig {
+        applicationId "com.example.vgnmanage"
+        minSdkVersion 16
+        targetSdkVersion 27
+        versionCode 4
+        versionName "1.4"
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+}
+
+dependencies {
+
+    implementation 'androidx.appcompat:appcompat:1.2.0'
+    implementation 'com.google.android.material:material:1.2.1'
+    implementation 'androidx.constraintlayout:constraintlayout:2.0.4'
+    implementation 'androidx.legacy:legacy-support-v4:1.0.0'
+
+    testImplementation 'junit:junit:4.+'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.2'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.3.0'
+
+    implementation 'com.karumi:dexter:5.0.0'
+    implementation 'com.squareup.retrofit2:retrofit:2.5.0'
+    implementation 'com.squareup.retrofit2:converter-scalars:2.5.0'
+    implementation 'com.squareup.picasso:picasso:2.71828'
+}

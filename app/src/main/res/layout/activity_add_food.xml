@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#B7D5D0"
+    tools:context=".AddFood">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_horizontal"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/buttonchoseimage"
+            android:layout_gravity="center"
+            android:foregroundGravity="center"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:minHeight="20dp"
+                tools:srcCompat="@tools:sample/avatars" />
+        </LinearLayout>
+
+        <EditText
+            android:id="@+id/editdes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/editname"
+            android:layout_alignBottom="@+id/edithelthy"
+            android:layout_alignParentRight="true"
+            android:layout_toRightOf="@+id/editname"
+            android:gravity="top"
+            android:hint="description"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/editname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="50dp"
+            android:ems="10"
+            android:foregroundGravity="center"
+            android:gravity="center"
+            android:hint="name"
+            android:inputType="textPersonName"
+            android:maxWidth="250dp" />
+
+        <EditText
+            android:id="@+id/editdelicios"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="125dp"
+            android:ems="10"
+            android:hint="delicios : enter deliciospercent"
+            android:inputType="number"
+            android:maxWidth="250dp" />
+
+        <EditText
+            android:id="@+id/edithelthy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="200dp"
+            android:ems="10"
+            android:hint="helthy : enter helthypercent"
+            android:inputType="number"
+            android:maxWidth="250dp" />
+
+        <Switch
+            android:id="@+id/switchveg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="250dp"
+            android:text="just vegan" />
+
+        <Button
+            android:id="@+id/buttonchoseimage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="300dp"
+            android:text="SELECT YOUR FOODSIMAGE" />
+
+        <Button
+            android:id="@+id/buttonfinish"
+            android:layout_width="wrap_content"
+            android:layout_height="45dp"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp"
+            android:text="finish" />
+
+    </RelativeLayout>
+
+    <!--     baraye gravity pas 4 ta halat shod yek inke
+                android:layout_gravity="center"
+                android:gravity="" in fek konam dakhel khodesho mide
+                android:foregroundGravity=""
+                ya inke masalan center ro search mikonim
+            android:layout_centerHorizontal="true"
+              miare ya in parent ya vertical
+    -->
+</ScrollView>
